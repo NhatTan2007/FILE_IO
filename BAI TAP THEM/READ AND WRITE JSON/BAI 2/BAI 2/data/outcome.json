@@ -1,0 +1,92 @@
+{
+  "StudentsOfSchool": [
+    {
+      "DiemTrungBinh": 8.75,
+      "XepLoai": "Gioi",
+      "MaHS": 1,
+      "HoTen": "Le Thi Mai",
+      "GioiTinh": "Female",
+      "Lop": "9/3",
+      "MonHoc": [
+        {
+          "TenMonHoc": "Toan",
+          "DiemThi": 9.0
+        },
+        {
+          "TenMonHoc": "Ly",
+          "DiemThi": 7.0
+        },
+        {
+          "TenMonHoc": "Hoa",
+          "DiemThi": 10.0
+        }
+      ]
+    },
+    {
+      "DiemTrungBinh": 7.625,
+      "XepLoai": "Kha",
+      "MaHS": 1,
+      "HoTen": "Tran Trung Cuong",
+      "GioiTinh": "Male",
+      "Lop": "9/3",
+      "MonHoc": [
+        {
+          "TenMonHoc": "Toan",
+          "DiemThi": 8.0
+        },
+        {
+          "TenMonHoc": "Ly",
+          "DiemThi": 6.5
+        },
+        {
+          "TenMonHoc": "Hoa",
+          "DiemThi": 8.0
+        }
+      ]
+    },
+    {
+      "DiemTrungBinh": 5.75,
+      "XepLoai": "Trung binh",
+      "MaHS": 2,
+      "HoTen": "Nguyen Cong Ly",
+      "GioiTinh": "Male",
+      "Lop": "9/3",
+      "MonHoc": [
+        {
+          "TenMonHoc": "Toan",
+          "DiemThi": 4.0
+        },
+        {
+          "TenMonHoc": "Ly",
+          "DiemThi": 9.0
+        },
+        {
+          "TenMonHoc": "Hoa",
+          "DiemThi": 6.0
+        }
+      ]
+    },
+    {
+      "DiemTrungBinh": 4.5,
+      "XepLoai": "Yeu",
+      "MaHS": 1,
+      "HoTen": "Nguyen Hoang Chuong",
+      "GioiTinh": "Male",
+      "Lop": "9/3",
+      "MonHoc": [
+        {
+          "TenMonHoc": "Toan",
+          "DiemThi": 4.0
+        },
+        {
+          "TenMonHoc": "Ly",
+          "DiemThi": 4.0
+        },
+        {
+          "TenMonHoc": "Hoa",
+          "DiemThi": 6.0
+        }
+      ]
+    }
+  ]
+}

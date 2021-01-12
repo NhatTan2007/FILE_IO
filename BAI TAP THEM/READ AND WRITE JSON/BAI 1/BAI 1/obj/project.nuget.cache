@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "qQrurqXx0SfNWW0B4u4FQAksOySvtONY18xnnaCj3YmZkBBOK/kuDjB+e9l2reomQSjfxQxvHthlhJCyhQjVyw==",
+  "success": true,
+  "projectFilePath": "D:\\LEARNING\\MODULE 2\\14. FILE IO\\EXERCISE\\BAI TAP THEM\\READ AND WRITE JSON\\BAI 1\\BAI 1\\BAI 1.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\nhatt\\.nuget\\packages\\newtonsoft.json\\12.0.3\\newtonsoft.json.12.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}
