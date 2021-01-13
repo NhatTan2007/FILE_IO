@@ -1,0 +1,21 @@
+{
+  "TableNumber": 6,
+  "TotalPrice": 130000.0,
+  "DateTimeCreatePayment": "13/01/2021 8:50 AM",
+  "DetailsPayments": [
+    {
+      "Name": "Salted",
+      "PricePerUnit": 30000.0,
+      "Unit": "cake",
+      "Quantity": 2,
+      "Amount": 60000.0
+    },
+    {
+      "Name": "Caramel Machiato",
+      "PricePerUnit": 35000.0,
+      "Unit": "cup",
+      "Quantity": 2,
+      "Amount": 70000.0
+    }
+  ]
+}

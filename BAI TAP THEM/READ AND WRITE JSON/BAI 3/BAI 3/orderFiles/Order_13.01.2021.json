@@ -1,0 +1,93 @@
+{
+  "ListOrders": [
+    {
+      "TableNumber": 3,
+      "DateTimeStartOrder": "13/01/2021 1:42 AM",
+      "DateTimeEndOrder": "13/01/2021 1:43 AM",
+      "OrderDetail": [
+        {
+          "Name": "Espresso Coffee With Condensed Milk",
+          "PricePerUnit": 16000.0,
+          "Unit": "cup",
+          "Quantity": 2,
+          "Amount": 32000.0
+        },
+        {
+          "Name": "Salted",
+          "PricePerUnit": 30000.0,
+          "Unit": "cake",
+          "Quantity": 3,
+          "Amount": 90000.0
+        }
+      ],
+      "IsPaid": true
+    },
+    {
+      "TableNumber": 10,
+      "DateTimeStartOrder": "13/01/2021 1:43 AM",
+      "DateTimeEndOrder": "13/01/2021 1:49 AM",
+      "OrderDetail": [
+        {
+          "Name": "Salted",
+          "PricePerUnit": 30000.0,
+          "Unit": "cake",
+          "Quantity": 5,
+          "Amount": 150000.0
+        }
+      ],
+      "IsPaid": true
+    },
+    {
+      "TableNumber": 6,
+      "DateTimeStartOrder": "13/01/2021 1:49 AM",
+      "DateTimeEndOrder": "13/01/2021 1:50 AM",
+      "OrderDetail": [
+        {
+          "Name": "Salted",
+          "PricePerUnit": 30000.0,
+          "Unit": "cake",
+          "Quantity": 2,
+          "Amount": 60000.0
+        },
+        {
+          "Name": "Caramel Machiato",
+          "PricePerUnit": 35000.0,
+          "Unit": "cup",
+          "Quantity": 2,
+          "Amount": 70000.0
+        }
+      ],
+      "IsPaid": true
+    },
+    {
+      "TableNumber": 2,
+      "DateTimeStartOrder": "13/01/2021 1:50 AM",
+      "DateTimeEndOrder": "",
+      "OrderDetail": [
+        {
+          "Name": "Chanh",
+          "PricePerUnit": 25000.0,
+          "Unit": "cup",
+          "Quantity": 6,
+          "Amount": 150000.0
+        }
+      ],
+      "IsPaid": false
+    },
+    {
+      "TableNumber": 7,
+      "DateTimeStartOrder": "13/01/2021 1:50 AM",
+      "DateTimeEndOrder": "",
+      "OrderDetail": [
+        {
+          "Name": "Tra Trai Cay",
+          "PricePerUnit": 39000.0,
+          "Unit": "cup",
+          "Quantity": 1,
+          "Amount": 39000.0
+        }
+      ],
+      "IsPaid": false
+    }
+  ]
+}

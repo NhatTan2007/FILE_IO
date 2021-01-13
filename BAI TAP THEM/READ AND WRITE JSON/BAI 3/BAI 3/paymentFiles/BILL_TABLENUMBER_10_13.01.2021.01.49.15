@@ -1,0 +1,14 @@
+{
+  "TableNumber": 10,
+  "TotalPrice": 150000.0,
+  "DateTimeCreatePayment": "13/01/2021 8:49 AM",
+  "DetailsPayments": [
+    {
+      "Name": "Salted",
+      "PricePerUnit": 30000.0,
+      "Unit": "cake",
+      "Quantity": 5,
+      "Amount": 150000.0
+    }
+  ]
+}

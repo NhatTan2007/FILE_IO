@@ -187,7 +187,7 @@ namespace BAI_3
                                     orderCheckout.DateTimeEndOrder = DateTime.UtcNow.ToString("g");
                                     orderCheckout.IsPaid = true;
                                     //write BILL
-                                    dataToWrite = JsonConvert.SerializeObject(newShop.OrderHistoryOfShop, Formatting.Indented);
+                                    dataToWrite = JsonConvert.SerializeObject(newPayment, Formatting.Indented);
                                     strFileNamePayment = $"BILL_TABLENUMBER_{newPayment.TableNumber}_{DateTime.UtcNow.ToString("dd.MM.yyy.hh.mm.ss")}";
                                     WriteFileJson(dataToWrite, strPathFilePayment, strFileNamePayment);
                                     //update Order status just checkout;
