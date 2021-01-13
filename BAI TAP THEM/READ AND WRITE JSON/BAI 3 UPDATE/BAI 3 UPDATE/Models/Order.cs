@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace BAI_3
+namespace BAI_3_UPDATE.Models
 {
     class Order
     {
@@ -31,17 +31,5 @@ namespace BAI_3
             _isPaid = false;
             _orderDetail = new List<ItemOrdered>();
         }
-
-        public int IsItemExistsInOrderDetail(string itemName)
-        {
-            for (int i = 0; i < _orderDetail.Count; i++)
-            {
-                if (_orderDetail[i].Name == itemName) return i;
-            }
-            return -1;
-        }
-
-
-
     }
 }

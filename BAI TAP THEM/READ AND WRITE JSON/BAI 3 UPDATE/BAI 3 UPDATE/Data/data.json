@@ -1,0 +1,163 @@
+{
+  "Menu": {
+    "ListDrinksOfShop": [
+      {
+        "Id": 6,
+        "Name": "Espresso Coffee With Condensed Milk",
+        "Price": 16000.0,
+        "Unit": "cup"
+      },
+      {
+        "Id": 7,
+        "Name": "Matcha Latte Coffee",
+        "Price": 38000.0,
+        "Unit": "cup"
+      },
+      {
+        "Id": 8,
+        "Name": "Espresso Coffee",
+        "Price": 14000.0,
+        "Unit": "cup"
+      },
+      {
+        "Id": 9,
+        "Name": "Hot Chocolate",
+        "Price": 34000.0,
+        "Unit": "cup"
+      },
+      {
+        "Id": 10,
+        "Name": "Mangonut",
+        "Price": 36000.0,
+        "Unit": "cup"
+      },
+      {
+        "Id": 11,
+        "Name": "Chanh",
+        "Price": 25000.0,
+        "Unit": "cup"
+      },
+      {
+        "Id": 12,
+        "Name": "Cam",
+        "Price": 27000.0,
+        "Unit": "cup"
+      },
+      {
+        "Id": 13,
+        "Name": "Yakult Tropical",
+        "Price": 33000.0,
+        "Unit": "cup"
+      },
+      {
+        "Id": 14,
+        "Name": "Straberry Yougurt",
+        "Price": 33000.0,
+        "Unit": "cup"
+      },
+      {
+        "Id": 15,
+        "Name": "Caramel Machiato",
+        "Price": 35000.0,
+        "Unit": "cup"
+      },
+      {
+        "Id": 18,
+        "Name": "Tra Trai Cay",
+        "Price": 39000.0,
+        "Unit": "cup"
+      }
+    ],
+    "ListFoodsOfShop": [
+      {
+        "Id": 1,
+        "Name": "Marble Cake",
+        "Price": 80000.0,
+        "Unit": "cake"
+      },
+      {
+        "Id": 2,
+        "Name": "Lava Cheese",
+        "Price": 35000.0,
+        "Unit": "cake"
+      },
+      {
+        "Id": 3,
+        "Name": "Brioche",
+        "Price": 80000.0,
+        "Unit": "cake"
+      },
+      {
+        "Id": 4,
+        "Name": "Salted",
+        "Price": 30000.0,
+        "Unit": "cake"
+      },
+      {
+        "Id": 5,
+        "Name": "Almond",
+        "Price": 30000.0,
+        "Unit": "cake"
+      },
+      {
+        "Id": 16,
+        "Name": "Japanese Coton Cheese Cake",
+        "Price": 125000.0,
+        "Unit": "cake"
+      },
+      {
+        "Id": 17,
+        "Name": "Ham&cheese",
+        "Price": 30000.0,
+        "Unit": "cake"
+      }
+    ]
+  },
+  "ListTables": [
+    {
+      "TableNumber": 1
+    },
+    {
+      "TableNumber": 2
+    },
+    {
+      "TableNumber": 3
+    },
+    {
+      "TableNumber": 4
+    },
+    {
+      "TableNumber": 5
+    },
+    {
+      "TableNumber": 6
+    },
+    {
+      "TableNumber": 7
+    },
+    {
+      "TableNumber": 8
+    },
+    {
+      "TableNumber": 9
+    },
+    {
+      "TableNumber": 10
+    },
+    {
+      "TableNumber": 11
+    },
+    {
+      "TableNumber": 12
+    },
+    {
+      "TableNumber": 13
+    },
+    {
+      "TableNumber": 14
+    },
+    {
+      "TableNumber": 15
+    }
+  ]
+}

@@ -4,7 +4,6 @@ using System.Text;
 using System.IO;
 using System.Xml;
 using System.Data;
-//using System.Xml.Linq;
 
 namespace READ_FILE_XML
 {
@@ -23,7 +22,13 @@ namespace READ_FILE_XML
 
         public string ReadFromFileXML(string filePath)
         {
-            XmlTextReader textReader = new XmlTextReader(@"D:\LEARNING\MODULE 2\14. FILE IO\EXERCISE\READ FILE XML\books.xml");
+            using (XmlTextReader textReader = new XmlTextReader(@"D:\LEARNING\MODULE 2\14. FILE IO\EXERCISE\READ FILE XML\READ FILE XML\books.xml"))
+            {
+                while (textReader.Read())
+                {
+
+                }
+            }
             //XmlReader read = new XmlReader();
         }
     }

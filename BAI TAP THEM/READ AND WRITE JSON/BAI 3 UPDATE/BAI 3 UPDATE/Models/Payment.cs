@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace BAI_3
+namespace BAI_3_UPDATE.Models
 {
     class Payment
     {
@@ -12,7 +12,7 @@ namespace BAI_3
         private string _dateTimeCreatePayment;
 
         public int TableNumber { get => _tableNumber; set => _tableNumber = value; }
-        public double TotalPrice { get => _totalPrice;}
+        public double TotalPrice { get => _totalPrice; }
         public string DateTimeCreatePayment { get => _dateTimeCreatePayment; }
         public List<ItemOrdered> DetailsPayments { get => _detailsPayments; }
 

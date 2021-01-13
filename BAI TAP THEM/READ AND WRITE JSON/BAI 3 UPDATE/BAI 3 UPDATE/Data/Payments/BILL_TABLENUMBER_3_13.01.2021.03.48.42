@@ -1,0 +1,28 @@
+{
+  "TableNumber": 3,
+  "TotalPrice": 175000.0,
+  "DateTimeCreatePayment": "13/01/2021 10:48 PM",
+  "DetailsPayments": [
+    {
+      "Name": "Japanese Coton Cheese Cake",
+      "PricePerUnit": 125000.0,
+      "Unit": "cake",
+      "Quantity": 1,
+      "Amount": 125000.0
+    },
+    {
+      "Name": "Espresso Coffee With Condensed Milk",
+      "PricePerUnit": 16000.0,
+      "Unit": "cup",
+      "Quantity": 1,
+      "Amount": 16000.0
+    },
+    {
+      "Name": "Hot Chocolate",
+      "PricePerUnit": 34000.0,
+      "Unit": "cup",
+      "Quantity": 1,
+      "Amount": 34000.0
+    }
+  ]
+}
