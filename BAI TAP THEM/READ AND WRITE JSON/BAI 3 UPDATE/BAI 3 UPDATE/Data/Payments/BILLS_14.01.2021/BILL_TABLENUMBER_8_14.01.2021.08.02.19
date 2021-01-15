@@ -1,0 +1,14 @@
+{
+  "TableNumber": 8,
+  "TotalPrice": 66000.0,
+  "DateTimeCreatePayment": "14/01/2021 3:02 PM",
+  "DetailsPayments": [
+    {
+      "Name": "Yakult Tropical",
+      "PricePerUnit": 33000.0,
+      "Unit": "cup",
+      "Quantity": 2,
+      "Amount": 66000.0
+    }
+  ]
+}

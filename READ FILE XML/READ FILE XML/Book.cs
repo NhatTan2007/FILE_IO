@@ -19,17 +19,5 @@ namespace READ_FILE_XML
             _title = title;
             _price = price;
         }
-
-        public string ReadFromFileXML(string filePath)
-        {
-            using (XmlTextReader textReader = new XmlTextReader(@"D:\LEARNING\MODULE 2\14. FILE IO\EXERCISE\READ FILE XML\READ FILE XML\books.xml"))
-            {
-                while (textReader.Read())
-                {
-
-                }
-            }
-            //XmlReader read = new XmlReader();
-        }
     }
 }

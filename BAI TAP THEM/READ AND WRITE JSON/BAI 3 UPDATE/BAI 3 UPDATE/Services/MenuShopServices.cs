@@ -84,7 +84,7 @@ namespace BAI_3_UPDATE.Services
             return false;
         }
 
-        public string DisplayDrinksMenu()
+        private string ToStringDrinksMenu()
         {
             string result = "Drinks Menu\n";
             foreach (Drink item in _menu.ListDrinksOfShop)
@@ -94,7 +94,7 @@ namespace BAI_3_UPDATE.Services
             return result;
         }
 
-        public string DisplayFoodsMenu()
+        private string ToStringFoodsMenu()
         {
             string result = "Foods Menu\n";
             foreach (Food item in _menu.ListFoodsOfShop)
@@ -102,6 +102,13 @@ namespace BAI_3_UPDATE.Services
                 result += $"ID: {item.Id}\t|\t{item.Name}\n";
             }
             return result;
+        }
+
+        public void DisplayProductsMenu()
+        {
+            Console.WriteLine(ToStringDrinksMenu());
+            Console.WriteLine();
+            Console.WriteLine(ToStringFoodsMenu());
         }
 
         public ItemOfMenu GetItemById(int id)

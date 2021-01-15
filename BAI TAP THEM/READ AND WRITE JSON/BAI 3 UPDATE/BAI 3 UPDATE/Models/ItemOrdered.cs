@@ -11,7 +11,7 @@ namespace BAI_3_UPDATE.Models
         private double _pricePerUnit;
         private string _unit;
         private int _quantity = 0;
-        private double _amount => GetAmount();
+        private double _amount => _pricePerUnit * _quantity;
         public string Name { get => _name; set => _name = value; }
         public double PricePerUnit { get => _pricePerUnit; set => _pricePerUnit = value; }
         public string Unit { get => _unit; set => _unit = value; }
@@ -28,11 +28,6 @@ namespace BAI_3_UPDATE.Models
             _pricePerUnit = item.Price;
             _unit = item.Unit;
             _quantity += numberUnitOrder;
-        }
-
-        private double GetAmount()
-        {
-            return _pricePerUnit * _quantity;
         }
     }
 }

@@ -1,0 +1,13 @@
+{
+  "version": 2,
+  "dgSpecHash": "qfzHh4neKWxMM5NNM1jqF28gCIcKAfeheHaIhzOKb2TcFZejaWxwqmZD16nJnpG4QJQvAe4w88K5but+rbqzFg==",
+  "success": true,
+  "projectFilePath": "D:\\LEARNING\\MODULE 2\\14. FILE IO\\EXERCISE\\BAI TAP THEM\\READ AND WRITE FILE CSV\\READ AND WRITE FILE CSV\\READ AND WRITE FILE CSV.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\nhatt\\.nuget\\packages\\automapper\\10.1.1\\automapper.10.1.1.nupkg.sha512",
+    "C:\\Users\\nhatt\\.nuget\\packages\\csvhelper\\19.0.0\\csvhelper.19.0.0.nupkg.sha512",
+    "C:\\Users\\nhatt\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",
+    "C:\\Users\\nhatt\\.nuget\\packages\\system.reflection.emit\\4.7.0\\system.reflection.emit.4.7.0.nupkg.sha512"
+  ],
+  "logs": []
+}

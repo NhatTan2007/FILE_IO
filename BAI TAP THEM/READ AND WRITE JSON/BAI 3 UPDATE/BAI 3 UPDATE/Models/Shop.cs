@@ -21,5 +21,12 @@ namespace BAI_3_UPDATE.Models
             _listTables = new List<Table>();
             _orderHistoryOfShop = new OrderHistory();
         }
+
+        public Shop(Shop inputShop)
+        {
+            _menu = inputShop.Menu;
+            _listTables = inputShop.ListTables;
+            _orderHistoryOfShop = inputShop.OrderHistoryOfShop;
+        }
     }
 }

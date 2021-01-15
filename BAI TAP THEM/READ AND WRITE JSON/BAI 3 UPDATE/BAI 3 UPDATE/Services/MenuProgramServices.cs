@@ -14,9 +14,9 @@ namespace BAI_3_UPDATE.Services
             Console.WriteLine("1. Create more table");
             Console.WriteLine("2. Create item of menu");
             Console.WriteLine("3. Order");
-            Console.WriteLine("4. Checkout Payment");
-            //Console.WriteLine("5. Display array");
-            Console.WriteLine("5. Exit");
+            Console.WriteLine("4. Checkout payment");
+            Console.WriteLine("5. List table free");
+            Console.WriteLine("6. Exit");
         }
 
         public static void DisplayMenuCreateItem()

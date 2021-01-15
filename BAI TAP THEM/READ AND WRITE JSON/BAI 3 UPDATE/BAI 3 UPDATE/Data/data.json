@@ -115,49 +115,84 @@
   },
   "ListTables": [
     {
-      "TableNumber": 1
+      "TableNumber": 1,
+      "IsUsed": true
     },
     {
-      "TableNumber": 2
+      "TableNumber": 2,
+      "IsUsed": false
     },
     {
-      "TableNumber": 3
+      "TableNumber": 3,
+      "IsUsed": false
     },
     {
-      "TableNumber": 4
+      "TableNumber": 4,
+      "IsUsed": false
     },
     {
-      "TableNumber": 5
+      "TableNumber": 5,
+      "IsUsed": false
     },
     {
-      "TableNumber": 6
+      "TableNumber": 6,
+      "IsUsed": false
     },
     {
-      "TableNumber": 7
+      "TableNumber": 7,
+      "IsUsed": false
     },
     {
-      "TableNumber": 8
+      "TableNumber": 8,
+      "IsUsed": false
     },
     {
-      "TableNumber": 9
+      "TableNumber": 9,
+      "IsUsed": false
     },
     {
-      "TableNumber": 10
+      "TableNumber": 10,
+      "IsUsed": false
     },
     {
-      "TableNumber": 11
+      "TableNumber": 11,
+      "IsUsed": false
     },
     {
-      "TableNumber": 12
+      "TableNumber": 12,
+      "IsUsed": false
     },
     {
-      "TableNumber": 13
+      "TableNumber": 13,
+      "IsUsed": false
     },
     {
-      "TableNumber": 14
+      "TableNumber": 14,
+      "IsUsed": false
     },
     {
-      "TableNumber": 15
+      "TableNumber": 15,
+      "IsUsed": false
+    },
+    {
+      "TableNumber": 16,
+      "IsUsed": false
+    },
+    {
+      "TableNumber": 17,
+      "IsUsed": false
+    },
+    {
+      "TableNumber": 18,
+      "IsUsed": false
+    },
+    {
+      "TableNumber": 19,
+      "IsUsed": false
+    },
+    {
+      "TableNumber": 20,
+      "IsUsed": false
     }
   ]
 }

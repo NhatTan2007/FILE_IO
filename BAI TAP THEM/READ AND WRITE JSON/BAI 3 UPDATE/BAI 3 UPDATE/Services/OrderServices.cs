@@ -30,6 +30,13 @@ namespace BAI_3_UPDATE.Services
                 Order newestOrder = _shopOrder.OrderHistoryOfShop.ListOrders[indexOrder];
                 if (!newestOrder.IsPaid)
                 {
+                    string choice = string.Empty;
+                    do
+                    {
+                        Console.Write($"Table {tableOrder.TableNumber} is using. Do you want to add more {itemOrder.Name} to this table? (Y/N): ");
+                        choice = Console.ReadLine().Trim();
+                    } while (choice == "" || (choice != "Y" && choice != "y" && choice != "N" && choice != "N"));
+                    if (choice == "N" || choice == "n") return;
                     int index = IsItemExistsInOrderDetail(newestOrder,itemOrder.Name);
                     if (index != -1)
                     {
@@ -43,19 +50,10 @@ namespace BAI_3_UPDATE.Services
                 }
                 else
                 {
-                    newestOrder = new Order(tableOrder);
-                    ItemOrdered tempItemOrder = new ItemOrdered(itemOrder, numberUnit);
-                    newestOrder.OrderDetail.Add(tempItemOrder);
-                    _shopOrder.OrderHistoryOfShop.ListOrders.Add(newestOrder);
+                    AddNewOrder(itemOrder, tableOrder, numberUnit);
                 }
             }
-            else
-            {
-                Order newestOrder = new Order(tableOrder);
-                ItemOrdered tempItemOrder = new ItemOrdered(itemOrder, numberUnit);
-                newestOrder.OrderDetail.Add(tempItemOrder);
-                _shopOrder.OrderHistoryOfShop.ListOrders.Add(newestOrder);
-            }
+            else AddNewOrder(itemOrder, tableOrder, numberUnit);
         }
 
         public bool InputDataOrder(out int id, out int qty, out int tableNumber)
@@ -107,6 +105,13 @@ namespace BAI_3_UPDATE.Services
                 if (orderToFind.OrderDetail[i].Name == itemName) return i;
             }
             return -1;
+        }
+        private void AddNewOrder(ItemOfMenu itemOrder, Table tableOrder, int numberUnit)
+        {
+            Order newestOrder = new Order(tableOrder);
+            ItemOrdered tempItemOrder = new ItemOrdered(itemOrder, numberUnit);
+            newestOrder.OrderDetail.Add(tempItemOrder);
+            _shopOrder.OrderHistoryOfShop.ListOrders.Add(newestOrder);
         }
         #endregion
     }
